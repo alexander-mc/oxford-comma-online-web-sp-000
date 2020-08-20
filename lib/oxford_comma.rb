@@ -2,7 +2,7 @@ def oxford_comma(array)
   case array
   when .length == 1
     array[0]
-  when array.length == 2
+  when .length == 2
     "#{array[0]} and #{array[1]}"
   else
     array << "and #{array.last}"
