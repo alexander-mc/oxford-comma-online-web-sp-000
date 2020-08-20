@@ -5,7 +5,7 @@ def oxford_comma(array)
   when array.length == 2
     "#{array[0]} and #{array[1]}"
   else
-    array << "and #{array.last}"
+    array.pop << "and #{array.last}"
     puts array.inspect
     array.join(", ")
   end
