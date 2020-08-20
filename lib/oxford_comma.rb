@@ -13,4 +13,4 @@ end
 array1 = ["A"]
 array2 = ["A","B"]
 array3 = ["A","B","C"]
-puts oxford_comma(array1)
+puts oxford_comma(array2)
